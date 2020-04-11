@@ -1,8 +1,26 @@
+/*Degrade-tranparência*/
+/* #box-2{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    background: url("../img/camera.png")
+} */
+
+#box-2{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    background: radial-gradient(yellow, rgba(168, 236, 8, 0.2), red);
+    /* background: radial-gradient(yellow, purple); */
+}
+
 #box {
     width: 400px;
     height: 400px;
     margin: 50px auto;
-    padding: 8px;
+    padding: 50px;
     background: #009670;
     box-shadow: 10px 10px 10px 10px black;
 }
